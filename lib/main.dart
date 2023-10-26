@@ -87,7 +87,7 @@ class _HomeState extends State<Home> {
                           const Divider(),
                           buildTextField("Dólares", "US\$"),
                           const Divider(),
-                          buildTextField("Euros", "€"),
+                          buildTextField("Eurosc", "€"),
                         ],
                       ),
                     );
@@ -107,3 +107,4 @@ Widget buildTextField(String label, String prefix) {
     style:const TextStyle(color: Colors.amber, fontSize: 25.0),
   );
 }
+
